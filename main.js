@@ -26,6 +26,20 @@ console.log(typeof y);
 console.log(`My name is ${name} and I am ${age}`);
 const s = 'Hello World'
 console.log(s.substring(0 ,5).toUpperCase());
-// Arrays - variables that hold multiple values
-const number = new Array(1, 2, 3, 4, 5);
+// Arrays - variables that hold multiple valuessan
+const number = new Array('yi', 'er', '3', 'si', 'wu');
 console.log(number);
+
+for(let i = 0; i < 10; i++){
+    console.log(i);
+}
+
+let j = 0;
+while(j < 10){
+    console.log(j);
+    j++;
+}
+
+for(let k = 0; k < number.length; k++){
+    process.stdout.write(number[k]);
+}
