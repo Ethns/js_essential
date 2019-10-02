@@ -31,15 +31,45 @@ const number = new Array('yi', 'er', '3', 'si', 'wu');
 console.log(number);
 
 for(let i = 0; i < 10; i++){
-    console.log(i);
+    try{
+        process.stdout.write(i.toString());
+    }
+    catch(err){
+        console.log(err.message);
+    }
+
 }
 
 let j = 0;
 while(j < 10){
-    console.log(j);
+    try{
+        process.stdout.write(j.toString());
+    }
+    catch(err){
+        console.log(err.message);
+    }
     j++;
 }
-
-for(let k = 0; k < number.length; k++){
-    process.stdout.write(number[k]);
+console.log() // print out a new line
+for(let n of number){
+    console.log(n);
 }
+
+todos = [
+    {id: 1, todo: 'get up', isDOne: true},
+    {id: 2, todo: 'get neat', isDOne: true},
+    {id: 3, todo: 'have brakefest', isDOne: false},
+    {id: 4, todo: 'get out', isDOne: false}
+];
+//foreach, map, filter
+todos.forEach(td => {
+    console.log(td.todo);    
+});
+const map_output = todos.map(function(td){
+    return td.todo;
+})
+console.log(map_output);
+const filered_output = todos.filter(function(td){
+    return td.isDOne == false;
+})
+console.log(filered_output);
