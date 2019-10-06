@@ -2,13 +2,13 @@
 http://localhost:8080/js_essetial.html
 
 ## Retrieve people JSON array from backed node live-server
-run: 
-`npm install -g live-sever` to install node js live-server globally
-`live-server` under project folder
-Browser opens: http://localhost:8080/
-use `ctrl+z` to detach live-server process and put it to stop in background
-`bg` resume live-server process and run it as a background process
-`fg` to bring the process back to front
+run:   
+`npm install -g live-sever` to install node js live-server globally  
+`live-server` under project folder  
+Browser opens: http://localhost:8080/  
+`ctrl+z` to detach live-server process and put it to stop in background  
+`bg` resume live-server process and run it as a background process  
+`fg` to bring the process back to front   
 ______
 ```bash
 ethans@ethans-hen:~/apps/nodejs_workspace/js_essential$ live-server
