@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Es",
+        "age": 30,
+        "addresses": {
+            "street": "Albert",
+            "unit": 589, 
+            "state": "NSW"
+        }
+    },
+    {
+        "name": "Ds",
+        "age": 26,
+        "addresses": {
+            "street": "Queen",
+            "unit": 123, 
+            "state": "QLD"
+        }
+    },
+    {
+        "name": "Fs",
+        "age": 29,
+        "addresses": {
+            "street": "Creek",
+            "unit": 233, 
+            "state": "VIC"
+        }
+    }
+]
