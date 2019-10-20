@@ -1,6 +1,6 @@
 nodeStream/node_modules/
 nodeStream/tarfolder/
 nodeStream/tarunzipped/
-nodeStream/package-lock.js
+nodeStream/package-lock.json
 nodeStream/*.tar.gz
 nodeStream/*.tgz

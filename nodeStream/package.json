@@ -1,0 +1,16 @@
+{
+  "name": "nodestream",
+  "version": "1.0.0",
+  "description": "about readable and writable stream, archive and unarchive files and directories",
+  "main": "unzipfiles.js",
+  "dependencies": {
+    "tar": "^5.0.5",
+    "unzip": "^0.1.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ethns",
+  "license": "ISC"
+}
