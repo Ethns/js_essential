@@ -1,1 +1,6 @@
-nohup.out
+nodeStream/node_modules/
+nodeStream/tarfolder/
+nodeStream/tarunzipped/
+nodeStream/package-lock.js
+nodeStream/*.tar.gz
+nodeStream/*.tgz
