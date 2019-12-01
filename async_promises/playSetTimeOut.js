@@ -1,0 +1,2 @@
+setTimeout( (value1, value2, value3) => {console.log(`${value1},${value2},${value3}`)}, 500, 'hello','world','!');
+// the first param is a callback function whose argument is an array of arguments that starts from the thrid params
